@@ -1,8 +1,8 @@
 import streamlit as st
 from openai import OpenAI
-import smtplib
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
+import smtplibxt import MIMEText
+from email.mime.multipa
+from email.mime.tert import MIMEMultipart
 import json
 import logging
 import io
@@ -19,7 +19,7 @@ stream_handler.setFormatter(formatter)
 logger.addHandler(stream_handler)
 
 # Streamlit UI setup
-st.title("📧 AI Email Assistant")
+st.title("🚀Turbo Pancake🥞")
 
 # Use st.secrets for sensitive information
 openai_api_key = st.secrets["OPENAI_API_KEY"]
